@@ -1,0 +1,82 @@
+body{
+	background: #eee;
+}
+h1{
+	text-align: center;
+}
+.box{
+	margin: 0px auto;
+	position: relative;
+}
+img{
+	position: absolute;
+	width: 400px;
+	height: 260px;
+	padding: 10px 10px 15px;
+	background:white;
+	-moz-transition: 1s;
+	-webkit-transition:1s;
+	transition:1s;
+	z-index: 1;
+
+}
+img:hover{
+	-moz-transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	transform: rotate(0deg);
+	transform:scale(1.2);
+	box-shadow: 30px 25px 10px #ccc;
+	z-index: 2;
+}
+.img1{
+	left: 100px;
+	top: 20px;
+	-moz-transform: rotate(15deg);
+	-webkit-transform: rotate(15deg);
+	transform: rotate(15deg);
+}
+.img2{
+	left: 260px;
+	top: 30px;
+	transform: rotate(-30deg);
+}
+.img3{
+	left: 700px;
+	top: 200px;
+	transform: rotate(30deg);
+}
+.img4{
+	left: 800px;
+	top: 380px;
+	transform: rotate(10deg);
+}
+.img5{
+	left: 430px;
+	top: 250px;
+	transform: rotate(-20deg);
+}
+.img6{
+	left: 20px;
+	top: 300px;
+	transform: rotate(-30deg);
+}
+.img7{
+	left: 670px;
+	top: 10px;
+	transform: rotate(-15deg);
+}
+.img8{
+	left: 840px;
+	top: 10px;
+	transform: rotate(25deg);
+}
+.img9{
+	left: 260px;
+	top: 340px;
+	transform: rotate(15deg);
+}
+.img10{
+	left: 450px;
+	top: 390px;
+	transform: rotate(-15deg);
+}
